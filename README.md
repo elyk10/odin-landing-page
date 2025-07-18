@@ -1,0 +1,1 @@
+This project is an example of web page layout and using flex box among other things to layout a web page based off a given image. 
