@@ -3,39 +3,55 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
+    
+    
     padding: 0;
     margin: 0;
 }
 
 .container {
-    
-    
-    margin: 0px 15%;
-    flex-grow:1;
+    padding: 0px 15%;
+    flex:1;
 }
 
 .one {
     background-color: #1F2937;
     color: #F9FAF8;
-    width: 100%;
+    
     /*position: fixed;*/
     
     display: flex;
-    align-items: center;
-    outline: 2px solid yellow;
+    
 }
+ h1 {
+    display: flex;
+    flex: 1;
+ }
+
+.contentFlex {
+    display: flex;
+ }
+
+.links {
+    
+    flex: 1 1 auto;
+    align-content: center;
+}
+
 
 ul {
     display: flex;
     list-style: none;
     justify-content: right;
+    align-content: center;
     gap:10px;
-    outline: 2px solid yellow;
-    height: 100%;
-    width: 100%;
+    
+    
+    
+}
 
+li {
+    display: flex;
 }
 
 img {
@@ -47,13 +63,16 @@ img {
     color: #1F2937;
     align-items:center;
     justify-content: center;
+    display: flex;
 }
 
 .three {
+    flex-direction: row;
     background-color: #E5E7EB;
     color: #1F2937;
     align-items: center;
     justify-content: center;
+    display:flex;
 }
 
 .four {
@@ -66,5 +85,7 @@ img {
 }
 
 button {
-    color:blue;
+    color:white;
+    background-color: #3882F6;
+    border: none;
 }
