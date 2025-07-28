@@ -60,7 +60,8 @@ img {
 }
 
 .two {
-    color: #1F2937;
+    background-color: #1F2937;
+    color: #F9FAF8;
     align-items:center;
     justify-content: center;
     display: flex;
@@ -68,21 +69,38 @@ img {
 
 .three {
     flex-direction: row;
-    background-color: #E5E7EB;
+    
     color: #1F2937;
     align-items: center;
     justify-content: center;
     display:flex;
+
+    text-align: center;
 }
 
 .four {
     color: #1F2937;
+    background-color: #E5E7EB;
 }
 
 .five {
-    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
     color: #F9FAF8;
     padding: 10px 0px;
+}
+
+.bubble {
+    background-color:#3882F6;
+    color: white;
+    border-radius: 7px;
+    padding: 10px 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+   
 }
 
 button {
@@ -92,6 +110,12 @@ button {
     width: 80px;
     border-radius: 5px;
     height:30px;
+
+    margin: 10px 0px;
+}
+
+.buttonOutline {
+    outline: 3px solid white;
 }
 
 h2 {
@@ -108,6 +132,7 @@ h3 {
 .italics {
     font: 36px light italic;
     font-style: italic;
+    padding-top: 20px;
 }
 
 h6 {
