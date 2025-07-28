@@ -82,10 +82,44 @@ img {
 .five {
     background-color: #1F2937;
     color: #F9FAF8;
+    padding: 10px 0px;
 }
 
 button {
     color:white;
     background-color: #3882F6;
     border: none;
+    width: 80px;
+    border-radius: 5px;
+    height:30px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 900;
+    display: block;
+}
+
+.italics {
+    font: 36px light italic;
+    font-style: italic;
+}
+
+h6 {
+    display:flex;
+    justify-content: right;
+    font-size: 24px;
+    
+}
+
+.infoImage {
+    border-radius: 5px;
+    border-color:#3882F6;
+    border-width: 3px;
+    border-style: solid;
 }
